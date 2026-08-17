@@ -302,20 +302,33 @@
 
 // 4. Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
 
-const age = parseInt(prompt("Enter your age"));
+// const age = parseInt(prompt("Enter your age"));
 
-if (age < 12) {
-  alert("Ticket price is 5");
-} else if (age < 18) {
-  alert("Ticket price is 10");
-} else if (age < 60) {
-  alert("Ticket price is 20");
-} else {
-  alert("Ticket price is 15");
-}
+// if (age < 12) {
+//   alert("Ticket price is 5");
+// } else if (age < 18) {
+//   alert("Ticket price is 10");
+// } else if (age < 60) {
+//   alert("Ticket price is 20");
+// } else {
+//   alert("Ticket price is 15");
+// }
 
 
 // 5. Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
+
+const purchaseAmount = parseInt(
+  prompt("Enter purchase amount")
+);
+
+if (purchaseAmount >= 100) {
+  alert("Discount is 20");
+} else if (purchaseAmount >= 50) {
+  alert("Discount is 10");
+} else {
+  alert("Discount is 0");
+}
+
 
 // Write a simple function that accepts the name of different users
 //Write a simple function that give the addition of two numbers
